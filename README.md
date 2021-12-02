@@ -31,28 +31,6 @@
     <a href="https://github.com/sponsors/tallguyjenks" target="_blank">👉 Sponsor this Work 👈</a>
 </h3>
 
-## Table of Contents
-
-- [Obsidian For Business](#obsidian-for-business)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Requirements](#requirements)
-    - [Recommended](#recommended)
-  - [Installation](#installation)
-    - [Getting the Outlook Utilities Installed](#getting-the-outlook-utilities-installed)
-    - [Users](#users)
-    - [Contributors](#contributors)
-  - [Usage](#usage)
-    - [Example](#example)
-  - [Documentation](#documentation)
-  - [Resources](#resources)
-  - [Development](#development)
-    - [Security](#security)
-    - [Future](#future)
-    - [History](#history)
-    - [Community](#community)
-  - [Credits](#credits)
-  - [License](#license)
 
 ## Features
 
@@ -68,9 +46,8 @@
   - Extract meeting attdendees and details by selecting a single meeting at a time in the calendar interface and running `SaveMeeting` and the detailes will be extracted to the designated vault file path set in [USER_CONFIG](USER_CONFIG.vb) 
 - Several facets of this system are configured and documented in [USER_CONFIG](USER_CONFIG.vb)
 
-## Requirements
 
-[Return To Top](#table-of-contents)
+## Prerequisites
 
 - Obsidian is required for the Template Vault
 - For the Microsoft Outlook VBA tools you will need:
@@ -81,13 +58,10 @@
     - Microsoft Forms 2.0 Object Library
     - Microsoft VBScript Regular Expressions 5.5
 
-### Recommended
-
-[Return To Top](#table-of-contents)
-
 It is recommended to use the latest version of Obsidian. The template vault includes community plugins. These should be updated to their latest versions using Obsidian's settings, the first time you open the vault.
 
-## Installation
+
+## Starting an Obsidian Vault from the Template
 
 [Return To Top](#table-of-contents)
 
@@ -100,7 +74,8 @@ It is recommended to use the latest version of Obsidian. The template vault incl
 3. Open that folder in Obsidian as a new vault
 4. Explore, play, find out what works and doesn't and change what ever you'd like
 
-### Installing the Outlook Utilities
+
+## Installing the Outlook Utilities
 
 1. Open Outlook
 2. Press & hold <kbd>Alt</kbd> then press <kbd>f11</kbd>. The Visual Basic Editor will open. You'll see something that looks like this: ![vba1](images/vba1.png)
@@ -118,9 +93,8 @@ If you cant find exact versions like `Microsoft Office 16.0 Object Library` don'
 
 These steps enable the basic functionality of the macros but you can customize a friendlier setup. See [Usage](#usage).
 
-## Usage
 
-[Return To Top](#table-of-contents)
+## Usage
 
 After installing the Outlook utilities, you can make them friendlier to use, thanks to the `Quick Access Toolbar in Outlook`.
 
@@ -136,29 +110,13 @@ After installing the Outlook utilities, you can make them friendlier to use, tha
 With that all done you'll have some icons on your Quick Access Toolbar to click for your automated actions but to take it a step further, if you simply press <kbd>Alt</kbd> the Quick Access Toolbar will highlight the icons with numbers so you can simply press a number afterwards to run the action for an entirely keyboard-centric workflow: ![QA6](images/QA6.png)
 
 
-
-### Example
-
-[Return To Top](#table-of-contents)
-
-<++>
-
-## Documentation
-
-[Return To Top](#table-of-contents)
-
-- See [The Wiki](https://github.com/tallguyjenks/Obsidian-For-Business/wiki)
-
 ## Resources
-
-[Return To Top](#table-of-contents)
 
 - [Obsidian](https://obsidian.md/)
 - [Bryan's YouTube Channel (Lots of Obsidian Videos)](https://www.youtube.com/c/BryanJenksTech?sub_confirmation=1)
 
-## Development
 
-[Return To Top](#table-of-contents)
+## Development
 
 - Development should take place on a Windows machine.
   - Given that VBA was made in '93 legacy'd in '08 little has changed so you can still easily use older code and machines. 
@@ -170,15 +128,12 @@ With that all done you'll have some icons on your Quick Access Toolbar to click 
 
 See [CONTRIBUTING](CONTRIBUTING.md)
 
-### Security
 
-[Return To Top](#table-of-contents)
+### Security
 
 - There should be no administrative privledges required for any of these tools at any time for any reason. As well as no requirement for any passwords, credentials or any user information what so ever. No data moves outside the local machine. There shouldn't be any security issues but if you think of anything please [report a security vulnerability](https://github.com/tallguyjenks/Obsidian-For-Business/security/policy).
 
 ### Future
-
-[Return To Top](#table-of-contents)
 
 - Ideally i'd like to further improve upon the code base using the additional VBA dev tools listed under [Development](#development) to batter manage the code.
 - For now i'd like to squash bugs, expand the regex options for email formats that appear so the extractors work as intended and after reaching a level of stability, just expand feature requests.
@@ -187,21 +142,17 @@ See [ROADMAP](ROADMAP.md)
 
 ### History
 
-[Return To Top](#table-of-contents)
-
 - **2021-04-04** Codebase Is Opensourced!
 
 See [RELEASES](https://github.com/tallguyjenks/Obsidian-For-Business/releases)
 
-### Community
 
-[Return To Top](#table-of-contents)
+### Community
 
 See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 
-### Contributors
 
-[Return To Top](#table-of-contents)
+### Contributors
 
 - [@dylan-k](https://github.com/dylan-k)
 
@@ -209,18 +160,16 @@ PR's welcome!
 
 See [CONTRIBUTING](#contributing)
 
-## Credits
 
-[Return To Top](#table-of-contents)
+## Credits
 
 - Thank you to everyone who contributes to this project.
 - If you contribute to this project do add a PR for [AUTHORS](AUTHORS.md) as well!
 
 See [AUTHORS](AUTHORS.md)
 
-## License
 
-[Return To Top](#table-of-contents)
+## License
 
 See [LICENSE](LICENSE)
 
