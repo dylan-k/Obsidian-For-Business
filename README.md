@@ -34,8 +34,6 @@
 
 ## Features
 
-[Return To Top](#table-of-contents)
-
 - A template vault to get you started using `Obsidian For Business`
 - Easy macros for tagging and refactoring emails en-masse
   - Select email(s) in Outlook and run the `JDAdd` macro to add a Johnny Decimal tag like: `12.04`. Your email subject lines will get a `[12.04]` tag added to the end of the subject line for easy searching. Described more in detail [HERE](https://johnnydecimal.com/concepts/managing-email/)
@@ -63,14 +61,12 @@ It is recommended to use the latest version of Obsidian. The template vault incl
 
 ## Starting an Obsidian Vault from the Template
 
-[Return To Top](#table-of-contents)
-
 1. Download this GitHub repository through any of the usual means 
    - GitHub CLI
    - SSH
    - HTTPS
    - a `.zip` etc.
-2. Take the `TEMPLATE_VAULT/` directory and move or rename it however you'd like it for your [Obsidian](https://obsidian.md/ vault
+2. Take the `TEMPLATE_VAULT/` directory and move or rename it however you'd like it for your [Obsidian](https://obsidian.md/) vault
 3. Open that folder in Obsidian as a new vault
 4. Explore, play, find out what works and doesn't and change what ever you'd like
 
