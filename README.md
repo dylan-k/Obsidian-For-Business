@@ -122,29 +122,24 @@ With that all done you'll have some icons on your Quick Access Toolbar to click 
 - [Bryan's YouTube Channel (Lots of Obsidian Videos)](https://www.youtube.com/c/BryanJenksTech?sub_confirmation=1)
 
 
-## Development
+## Development Notes
 
-- Development should take place on a Windows machine.
-  - Given that VBA was made in '93 legacy'd in '08 little has changed so you can still easily use older code and machines. 
-  - Only thing is that the newer versions of MS Office might be recommended because of the additions to the Object Library for VBA and i'm not sure if there would be anything missing from what versions of the libraries.
-- Helpful tools with VBA that I have yet ot implement well with this project are:
+Development should take place on a Windows machine. Given that VBA was made in '93 legacy'd in '08 little has changed so you can still easily use older code and machines. 
+Newer versions of MS Office might be recommended because of the additions to the Object Library for VBA and i'm not sure if there would be anything missing from what versions of the libraries.  
+See [CONTRIBUTING](CONTRIBUTING.md)
+
+Helpful tools with VBA that I have yet ot implement well with this project are:
     <!-- TODO Implement these tools into the project -->
   - [The Rubberduck IDE](https://github.com/rubberduck-vba/Rubberduck)
   - [VBA Sync Version Control Helper](https://github.com/chelh/VBASync/) 
 
-See [CONTRIBUTING](CONTRIBUTING.md)
+Ideally i'd like to further improve upon the code base using the additional VBA dev tools to better manage the code. For now i'd like to squash bugs, expand the regex options for email formats that appear so the extractors work as intended and after reaching a level of stability, just expand feature requests.  
+See [ROADMAP](ROADMAP.md)
 
 
 ### Security
 
-- There should be no administrative privledges required for any of these tools at any time for any reason. As well as no requirement for any passwords, credentials or any user information what so ever. No data moves outside the local machine. There shouldn't be any security issues but if you think of anything please [report a security vulnerability](https://github.com/tallguyjenks/Obsidian-For-Business/security/policy).
-
-### Future
-
-- Ideally i'd like to further improve upon the code base using the additional VBA dev tools listed under [Development](#development) to batter manage the code.
-- For now i'd like to squash bugs, expand the regex options for email formats that appear so the extractors work as intended and after reaching a level of stability, just expand feature requests.
-
-See [ROADMAP](ROADMAP.md)
+There should be no administrative privledges required for any of these tools at any time for any reason. As well as no requirement for any passwords, credentials or any user information what so ever. No data moves outside the local machine. There shouldn't be any security issues but if you think of anything please [report a security vulnerability](https://github.com/tallguyjenks/Obsidian-For-Business/security/policy).
 
 
 ### History
@@ -167,8 +162,8 @@ Pull requests with contributions are welcome! Bug reports, feature requests, and
 
 See [LICENSE](LICENSE)
 
----
 
+---
 
 <!-- Buy me a coffee -->
 <h3 align="center">
